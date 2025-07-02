@@ -1,0 +1,632 @@
+body {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 500;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* NAVBAR1 */
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.navbar1-sec1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar1-sec1 img {
+    width: 55px;
+}
+
+.navbar1-sec2 {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar1-sec2 p {
+    padding: 10px;
+}
+
+.navbar1-sec2 p:hover {
+    background-color: rgb(245, 242, 242);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar1-sec3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar1-sec3-region {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navbar1-sec3 button {
+    border: none;
+    background-color: transparent;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar1-sec3 button:active {
+    transform: translateY(1px);
+}
+
+/* NAVBAR2 */
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* NAVBAR3 */
+.navbar3 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.navbar3-sec1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid transparent 4px;
+    cursor: pointer;
+}
+
+.navbar3-sec1:hover {
+    border-bottom: solid black 3px;
+}
+
+/* NAVBAR4 */
+.navbar4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin-left: 360px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.navbar4 i {
+    font-size: 18px;
+}
+
+.navbar4 input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar4 input:focus {
+    outline: transparent;
+}
+
+.navbar4 button {
+    padding: 10px;
+    width: 90px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    background-color: #2CE3A2;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.navbar4 button:active {
+    background-color: #2CE3A2;
+    transform: translateY(1px);
+}
+
+/* MAIN IMAGE */
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    margin-top: 50px;
+    width: 83%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* OOTY TITLE */
+.ooty-title {
+    margin-top: 50px;
+    margin-left: 125px;
+
+}
+
+/* OOTY IMAGES */
+.ooty-image {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+    overflow-x: auto;
+    width: 84%;
+}
+
+.ooty-image img {
+    width: 303px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* CATEGORY TITLE */
+.cat-title {
+    margin-top: 30px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+/* CATEGORY IMAGES */
+.cat-image {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    width: 84%;
+    margin-left: 120px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+.cat-image img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cat-container {
+    margin-top: 30px;
+    background-color: rgb(252, 231, 205);
+    padding: 10px;
+}
+
+/* SHIP IMAGE*/
+.ship-main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ship-main img {
+    width: 84%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.ship-main-text {
+    position: absolute;
+    margin-top: 26%;
+    padding-right: 53%;
+    color: white;
+}
+
+/* ANIMAL SECTION */
+.animal-title {
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.animal-image {
+    display: flex;
+    width: 84%;
+    margin-left: 120px;
+    gap: 20px;
+    overflow-x: auto;
+    margin-top: 20px;
+
+}
+
+.animal-image img {
+    margin-bottom: 20px;
+    width: 304px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* ABOUT LIST-------------------------------------------------------------- */
+
+.about-list {
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.about-list p {
+    margin-top: 20px;
+    font-weight: 100;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.about-list p:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+/* CONTACT-------------------------------------------------------- */
+.contact img {
+    width: 50px;
+}
+
+.contact p {
+    margin-left: 1px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.contact-container {
+    background-color: rgb(177, 177, 177);
+    margin-top: 50px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:1200px) {
+    .navbar4 {
+        margin-left: 270px;
+    }
+
+    .ooty-title,
+    .ooty-image,
+    .cat-title,
+    .cat-image,
+    .animal-title,
+    .animal-image,
+    .about-list {
+        margin-left: 100px;
+    }
+
+    .contact {
+        margin-left: 60px;
+    }
+
+    .ship-main-text {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .ship-main {
+        margin-left: 30px;
+    }
+
+    .ship-main img {
+        width: 84%;
+    }
+
+    .ship-main-text {
+        width: 100%;
+        margin-left: 74%;
+    }
+
+    .about-list {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbar3 {
+        gap: 30px;
+    }
+
+    .navbar4 {
+        margin-left: 220px;
+    }
+
+    .main img {
+        width: 84%;
+    }
+
+    .ooty-title,
+    .ooty-image,
+    .cat-title,
+    .cat-image,
+    .animal-title,
+    .animal-image,
+    .about-list {
+        margin-left: 75px;
+    }
+
+    .ooty-image img {
+        width: 260px;
+    }
+
+    .cat-image img {
+        width: 255px;
+    }
+
+    .animal-image img {
+        width: 260px;
+        height: 210px;
+    }
+
+    .ship-main img {
+        width: 85%;
+        margin-right: 40px;
+    }
+
+    .ship-main-text {
+        width: 100%;
+        margin-left: 69%;
+    }
+
+    .contact {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navbar3 {
+        font-size: 14px;
+        gap: 25px;
+    }
+
+    .navbar4 {
+        margin-left: 200px;
+    }
+
+    .main img {
+        margin-left: 15px;
+    }
+
+    .ooty-image img {
+        width: 230px;
+    }
+
+    .cat-title {
+        margin-left: 65px;
+    }
+
+    .cat-image {
+        margin-left: 55px;
+    }
+
+    .cat-image img {
+        width: 225px;
+    }
+
+    .animal-image img {
+        width: 230px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 12px;
+    }
+
+    .navbar3 {
+        overflow-x: auto;
+    }
+
+    .main img {
+        width: 83%;
+        margin-right: 5px;
+    }
+
+    .ooty-title,
+    .animal-title {
+        margin-left: 70px;
+    }
+
+    .ooty-image {
+        width: 84%;
+        margin-left: 70px;
+    }
+
+    .ooty-image img {
+        width: 205px;
+    }
+
+    .cat-image {
+        width: 86%;
+    }
+
+    .cat-image img {
+        width: 205px;
+    }
+
+    .cat-title,
+    .about-list {
+        margin-left: 55px;
+    }
+
+    .ship-main img {
+        width: 86%;
+    }
+
+    .animal-image {
+        margin-left: 65px;
+    }
+
+    .animal-image img {
+        width: 205px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 10px;
+    }
+
+    .navbar1-sec1 img {
+        width: 45px;
+    }
+
+    .navbar1-sec2 {
+        gap: 10px;
+    }
+
+    .navbar1-sec3 button {
+        font-size: 12px;
+    }
+
+    .navbar2,
+    .navbar3 {
+        font-size: 10px;
+        margin-left: 20px;
+        gap: 15px;
+    }
+
+    .navbar3-sec1 {
+        gap: 5px;
+    }
+
+    .navbar4 {
+        margin-left: 160px;
+        margin-top: 30px;
+        height: 20px;
+    }
+
+    .navbar4 input {
+        font-size: 12px;
+    }
+
+    .navbar4 button {
+        font-size: 12px;
+        width: 75px;
+        height: 35px;
+    }
+
+    .ooty-title,
+    .ooty-image {
+        margin-left: 60px;
+    }
+
+    .ooty-image img,
+    .cat-image img {
+        width: 173px;
+    }
+
+    .ship-main img {
+        width: 87%;
+        margin-left: 20px;
+    }
+
+    .animal-image img {
+        width: 173px;
+        height: 140px;
+    }
+
+    .contact {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar1-sec2 {
+        display: none;
+    }
+
+    .navbar3 {
+        font-size: 10px;
+        gap: 15px;
+    }
+
+    .navbar4 {
+        margin-left: 135px;
+    }
+
+    .navbar4 input,
+    .navbar4 button {
+        font-size: 10px;
+    }
+
+    .navbar4 i {
+        font-size: 12px;
+    }
+
+    .main img {
+        width: 83%;
+    }
+
+    .ooty-title {
+        margin-left: 58px;
+    }
+
+    .ooty-image {
+        width: 82%;
+        margin-left: 55px;
+    }
+
+    .ooty-image img {
+        width: 225px;
+    }
+
+    .cat-image {
+        width: 83%;
+    }
+
+    .cat-image img {
+        width: 220px;
+    }
+
+    .ship-main img {
+        width: 84%;
+    }
+
+    .ship-main {
+        margin-left: 35px;
+    }
+
+    .ship-main-text {
+        font-size: 8px;
+    }
+
+    .animal-image {
+        width: 79%;
+        margin-left: 65px;
+    }
+
+    .animal-image img {
+        width: 255px;
+        height: 145px;
+    }
+}
