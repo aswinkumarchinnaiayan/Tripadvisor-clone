@@ -630,3 +630,97 @@ body {
         height: 145px;
     }
 }
+@media screen and (max-width:400px) {
+    .navbar1-sec2 {
+        display: none;
+    }
+    .navbar1-sec3-region{
+        display: none;
+    }
+
+    .navbar3 {
+        font-size: 8px;
+        gap: 10px;
+    }
+
+    .navbar4 {
+        margin-left: 90px;
+        padding: 10px;
+    }
+
+    .navbar4 input,
+    .navbar4 button {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .navbar4 i {
+        font-size: 10px;
+    }
+    .navbar4 button {
+        font-size: 10px;
+        width: 55px;
+        height: 30px;
+    }
+
+    .main img {
+        width: 83%;
+    }
+
+    .ooty-title {
+        margin-left: 38px;
+    }
+
+    .ooty-image {
+        width: 82%;
+        margin-left: 35px;
+    }
+
+    .ooty-image img {
+        width: 250px;
+    }
+    .cat-title{
+        margin-left: 30px;
+    }
+    .cat-image {
+        width: 84%;
+        margin-left: 30px;
+    }
+
+    .cat-image img {
+        width: 250px;
+    }
+
+    .ship-main img {
+        width: 85%;
+    }
+
+    .ship-main {
+        margin-left: 20px;
+    }
+
+    .ship-main-text {
+        font-size: 8px;
+    }
+    .animal-title{
+        margin-left: 35px;
+    }
+    .animal-image {
+        width: 80%;
+        margin-left: 35px;
+    }
+
+    .animal-image img {
+        width: 300px;
+        height: 200px;
+    }
+    .about-list{
+        margin-left: 25px;
+    }
+    .contact{
+        margin-left: 1px;
+    }
+    .contact img{
+        width: 40px;
+    }
+}
